@@ -157,3 +157,24 @@ form {
 
 }
 
+/* Media query */
+
+@media screen and (max-width: 768px) {
+    .search-results {
+        margin: 10%;
+    }
+    .search-result {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .search-results {
+        margin: 10%;
+    }
+     
+    .search-result {
+        width: 100%;
+    }
+}
