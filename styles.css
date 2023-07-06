@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  #top-Bar{
+    height: 20px;
+    padding-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .hero-section {
+   
+    position: relative;
+    background-color: black;
+    background-image: url('./images/Hero.jpg');
+    background-size: cover;
+    height: 500px;
+  }
+  
+  .content-container {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    width: 45%;
+    transform: translate(0, -50%);
+    padding: 20px;
+    color: chocolate;
+    text-align: left;
+    font-size: 23px;
+  }
+
+  .content-container button {
+           background-color: chocolate;
+           border-radius: 5px;
+           border-style: hidden;
+           padding: 10px 20px 10px 20px;
+           color: aliceblue;
+           font-size: medium;
+  }
+  
+  .content-container:nth-child(2) {
+    left: 60%; 
+    color:black;
+    background-color: aliceblue;
+    padding: 10px 10px 50px 50px;
+    width: 25%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  }
+  
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0 60px 0;
+    color: chocolate;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 40px 0 60px 0;
+    font-family: 'Permanent Marker', cursive;
+    color: chocolate;
+}
+
+form {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+#search-input {
+    width: 60%;
+    max-width: 400px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    border-radius:  5px;
+    font-size: 18px;
+    color:#333;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: rgb(161, 161, 161);
+    color: aliceblue;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.order{ 
+    color: chocolate;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-style: hidden;
+    margin-bottom: 15px;
+}
+
+.search-results{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.search-result{
+    margin-bottom: 60px;
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: chocolate;
+    
+}
+
+.search-result img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.2s ease-in-out;
+    
+}
+
+.search-result:hover img {
+    opacity: 0.8;
+}
+
+.search-result a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.drink-info{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(46, 46, 46);
+    padding:10px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .search-results {
+        margin: 10%;
+    }
+    .search-result {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .search-results {
+        margin: 10%;
+    }
+     
+    .search-result {
+        width: 100%;
+    }
+}
