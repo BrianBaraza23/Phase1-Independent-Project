@@ -61,7 +61,7 @@ This is an ongoing project, not just of a cocktail ordering app, but also has th
 - step1: 
   Enter link of deployed app on your browser
 
-  link --->
+  link ---> https://brianbaraza23.github.io/Phase1-Independent-Project/
 
   <img src="./screenshots/1.png" alt="1" />
 
