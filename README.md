@@ -6,6 +6,7 @@
 
 ## Deployment Link
 
+https://brianbaraza23.github.io/Phase1-Independent-Project/
 
 
 ## Description
