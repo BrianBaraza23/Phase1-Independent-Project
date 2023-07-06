@@ -20,7 +20,7 @@ body {
     background-size: cover;
     height: 500px;
   }
-  
+  /* Section for displaying a drink*/
   .content-container {
     position: absolute;
     top: 50%;
@@ -51,7 +51,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
   }
-  
+  /* styling Headers  */
 h1 {
     font-size: 36px;
     font-weight: bold;
@@ -70,7 +70,7 @@ h3 {
     font-family: 'Permanent Marker', cursive;
     color: chocolate;
 }
-
+/* Styling input form */
 form {
     display:flex;
     justify-content: center;
@@ -109,7 +109,7 @@ form {
     border-style: hidden;
     margin-bottom: 15px;
 }
-
+/* Styling  individual cards*/
 .search-results{
     display: flex;
     justify-content: space-between;
@@ -157,22 +157,3 @@ form {
 
 }
 
-@media screen and (max-width: 768px) {
-    .search-results {
-        margin: 10%;
-    }
-    .search-result {
-        width: 45%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-
-    .search-results {
-        margin: 10%;
-    }
-     
-    .search-result {
-        width: 100%;
-    }
-}
